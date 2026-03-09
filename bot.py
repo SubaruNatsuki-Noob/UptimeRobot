@@ -25,7 +25,7 @@ FORCE_SUB_TEXT = os.environ.get(
     """<b><i>❗️ You must join our channel before using this feature:</i></b>"""
 )
 
-FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "𝕸𝖆𝖎𝖓 𝕮𝖍𝖆𝖓𝖓𝖊𝖑: ")
+FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "")
 
 SETTINGS = {
     "ADMINS": ADMINS,
